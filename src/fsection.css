@@ -1,0 +1,80 @@
+p{
+    color: #fff;
+}
+.row9 {
+    width: 60%;
+    margin: auto;
+}
+.fcontainer {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+.h1name{
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+}
+.fa-html5{
+    color: coral;
+}
+.fa-css3, .fa-react{
+    color: aqua;
+}
+.fa-js{
+    color:blue
+}
+.fa-github{
+    color:#fff
+}
+.fa-html5, .fa-github, .fa-css3, .fa-react, .fa-js{
+    margin: 0 10px;
+}
+.righthero img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.righthero img:hover{
+    box-shadow: 0 20px 50px rgba(133, 0, 0, 0.2);
+    transform: translateY(-20px);
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+
+}
+.fa-code {
+    animation: flash 1s infinite;
+}
+.linkbox{
+    display: flex;
+    gap: 10px;
+}
+.ghprofile{
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.linktext{
+    font-size: 20px;
+
+}
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 980px) {
+    .fcontainer{height: 800px}
+    
+}
+@media screen and (max-width: 680px) {
+    .fcontainer{height: 700px; flex-direction: column;justify-content: center;}
+    .righthero img{width: 200px;height: 200px;}
+    
+}
