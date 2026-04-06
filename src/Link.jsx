@@ -5,27 +5,30 @@ const Link = () => {
     return (
         <div className="link-container">
             <h1 className="profile-text" >My Profile Link <i class="fa fa-link" aria-hidden="true"></i></h1>
-            <a href="#" className="link-box" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/vathanakks" className="link-box" target="_blank" rel="noopener noreferrer">
                 <div className="link-logo">
-                <img src="facebook-logo.avif"></img>
+                <img src="facebook-logo.avif" alt=""></img>
                 </div>
                 <h1 className="link-box-text">Facebook</h1>
             </a>
-            < div className="link-box">
+
+            <a href="https://pay.ababank.com/oRF8/9pai2k5y" className="link-box" target="_blank" rel="noopener noreferrer">
                 <div className="link-logo">
-                <img src="unnamed.png"></img>
+                <img src="unnamed.png" alt=""></img>
                 </div>
                 <h1 className="link-box-text">ABA</h1>
-            </div>
-            < div className="link-box">
+            </a>
+
+            <a href="https://pay.ababank.com/oRF8/9pai2k5y" className="link-box" target="_blank" rel="noopener noreferrer">
                 <div className="link-logo">
-                <img src="logo.png"></img>
+                <img src="logo.png" alt=""></img>
                 </div>
                 <h1 className="link-box-text">Acleda</h1>
-            </div>
+            </a>
+
             <a href="https://t.me/vathanakks" className="link-box" target="_blank" rel="noopener noreferrer">
                 <div className="link-logo">
-                <img src="Telegram_logo.svg.png"></img>
+                <img src="Telegram_logo.svg.png" alt=""></img>
                 </div>
                 <h1 className="link-box-text">Telegram</h1>
             </a>

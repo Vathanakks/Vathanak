@@ -6,8 +6,8 @@ const Header = () => {
     <nav>
         <ul className="nav-list">
             <li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Home</a></li>
-            <li><a>My SKill</a></li>
-            <li><a>About</a></li>
+            <li><a href="/">My SKill</a></li>
+            <li><a href="/">About</a></li>
         </ul>
     </nav>
 
