@@ -3,7 +3,6 @@ import Fsection from './fsection';
 import Header from './Header';
 import Link from './Link';
 import Myskill from './Myskill';
-import Loader from './Loader';
 import Designskill from './designskill';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
           <Link />
           <Fsection />
           <Myskill />
-          <Loader />
           <Designskill />
     </div>
   );

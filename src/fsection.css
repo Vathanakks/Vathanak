@@ -6,15 +6,41 @@ p{
     margin: auto;
 }
 .fcontainer {
-    display: flex;
     height: 600px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+.fcontainer1 {
+    display: flex;
+  
+}
+.fcontainer2 {
+    display: flex;
+    gap: 20px;
 }
 .h1name{
     color: #fff;
     margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+.h2name{
+    color: #fff;
     font-size: 30px;
+    margin: 0;
+
+}
+.pb {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+p {
+    font-size: 16px;
+    margin: 0;
+    margin-right: 100px;
 }
 .fa-html5{
     color: coral;
@@ -58,6 +84,50 @@ p{
     font-size: 20px;
 
 }
+.fcbutton {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(193, 163, 98);
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fcbutton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(193, 163, 98);
+  transition: all 2s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.fcbutton:hover::before {
+  scale: 3;
+}
+
+.fcbutton:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.fcbutton:active {
+  scale: 1;
+}
+
 @keyframes flash {
     0% {
         opacity: 1;
@@ -76,5 +146,11 @@ p{
 @media screen and (max-width: 680px) {
     .fcontainer{height: 700px; flex-direction: column;justify-content: center;}
     .righthero img{width: 200px;height: 200px;}
-    
+    .fcontainer1 {flex-direction: column; align-items: center;}
+    p{margin-right: 0;}
+
+}
+@media screen and (max-width: 500px) {
+    .fcontainer2{flex-direction: column;}
+
 }
