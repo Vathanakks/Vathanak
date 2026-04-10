@@ -4,7 +4,11 @@ import './myskill.css'
 const Myskill = () => {
     return (
     <div id="skill-container">
-<h1 className="h1-myskill" >My Skill</h1>
+      <div className="l1">
+  <h1 className="h1-myskill" >My Project</h1>
+  <h1 className="h1-myskill" >My Skill</h1>
+</div>
+
 <div class="container">
   <div class="skill-box">
     <span class="title">HTML</span>

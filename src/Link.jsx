@@ -19,7 +19,7 @@ const Link = () => {
                 <h1 className="link-box-text">ABA</h1>
             </a>
 
-            <a href="https://pay.ababank.com/oRF8/9pai2k5y" className="link-box" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.capcut.com/u/e30?irclickid=RGg2qrQEoxycR0bU6vzJXWjaUku1%3AFyVfwSXy80&sharedid=&irpid=2667632&irgwc=1&afsrc=1" className="link-box" target="_blank" rel="noopener noreferrer">
                 <div className="link-logo">
                 <img src="logo.png" alt="AC"></img>
                 </div>
