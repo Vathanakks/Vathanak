@@ -1,12 +1,16 @@
 p{
-    color: #fff;
+    color: #000000;
 }
 .row9 {
     width: 60%;
     margin: auto;
 }
-.fcontainer {
+#bfcontainer {
     height: 600px;
+    align-content: center;
+    background: linear-gradient(30deg, #ffffff, #a3a3a3);
+}
+.fcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,13 +25,13 @@ p{
     gap: 20px;
 }
 .h1name{
-    color: #fff;
+    color: #000000;
     margin: 0;
     font-size: 40px;
     font-weight: bold;
 }
 .h2name{
-    color: #fff;
+    color: #000000;
     font-size: 30px;
     margin: 0;
 
@@ -40,7 +44,7 @@ p{
 p {
     font-size: 16px;
     margin: 0;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 .fa-html5{
     color: coral;
@@ -52,7 +56,7 @@ p {
     color:blue
 }
 .fa-github{
-    color:#fff
+    color:#ffffff
 }
 .fa-html5, .fa-github, .fa-css3, .fa-react, .fa-js{
     margin: 0 10px;
@@ -90,7 +94,7 @@ p {
   padding: 10px 24px;
   font-size: 18px;
   color: rgb(193, 163, 98);
-  border: 2px solid rgb(193, 163, 98);
+  border: 3px solid rgb(193, 163, 98);
   border-radius: 34px;
   background-color: transparent;
   font-weight: 600;
@@ -98,6 +102,7 @@ p {
   overflow: hidden;
   text-decoration: none;
   text-align: center;
+  background: #161616;
 }
 
 .fcbutton::before {
@@ -139,12 +144,15 @@ p {
         opacity: 1;
     }
 }
+@media screen and (max-width: 1080px) {
+    .row9{width: 75%}
+}
 @media screen and (max-width: 980px) {
-    .fcontainer{height: 800px}
+    #bfcontainer{height: 800px}
     
 }
 @media screen and (max-width: 680px) {
-    .fcontainer{height: 700px; flex-direction: column;justify-content: center;}
+    #bfcontainer{height: 700px; flex-direction: column;justify-content: center}
     .righthero img{width: 200px;height: 200px;}
     .fcontainer1 {flex-direction: column; align-items: center;}
     p{margin-right: 0;}

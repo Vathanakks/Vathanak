@@ -3,7 +3,7 @@ body{
     font-family: 'Fira sans', sans-serif;
 }
 .header {
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content: center;
     border-bottom: 2px #fff;

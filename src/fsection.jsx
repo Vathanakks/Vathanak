@@ -2,6 +2,7 @@ import React from "react";
 import './fsection.css';
 const Fsection = () => {
     return(
+    <div id="bfcontainer">
      <div className="fcontainer row9">
         <div className="fcontainer1">
             <div className="lefthero">
@@ -25,6 +26,7 @@ const Fsection = () => {
 
             </div>
 
+     </div>
      </div>
     );
 };
