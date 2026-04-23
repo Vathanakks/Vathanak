@@ -49,7 +49,7 @@ const Showcase = () => {
     const [activeTab, setActiveTab] = useState('skills');
 
     return (
-        <div className="showcase-page">
+        <div id="showcase-page">
             {/* Hero */}
             <div className="showcase-hero">
                 <h1 className="showcase-title">What I Bring to the Table</h1>
@@ -168,7 +168,7 @@ const Showcase = () => {
                             
                             <div className='edu-container con2'>
                                 <img src="setecimg.png" alt="Setec" style={{width: 80}} />
-                                <p>Studying in major MIS at <a href="https://setecu.com"><b>Setec</b></a> Institude "Currently at year 1"</p>
+                                <p>Bachelor of Management Information Technology (MIS), Year 1 at <a href="https://setecu.com"><b>Setec Institude</b></a></p>
 
                                 
 

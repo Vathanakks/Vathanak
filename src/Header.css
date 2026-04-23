@@ -3,7 +3,7 @@ body{
     font-family: 'Fira sans', sans-serif;
 }
 .header {
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
     border-bottom: 2px #fff;
@@ -12,6 +12,7 @@ body{
     align-items: center;
     width: 100%;
     z-index: 1000;
+    top: 0;
 }
 .nav-list {
     list-style: none;
