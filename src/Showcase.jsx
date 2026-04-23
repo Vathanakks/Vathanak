@@ -167,7 +167,7 @@ const Showcase = () => {
                             </div>
                             
                             <div className='edu-container con2'>
-                                <img src="setecimg.png" alt="Setec" style={{width: 80}} />
+                                <img src="Setecimg.png" alt="Setec" style={{width: 80}} />
                                 <p>Bachelor of Management Information Technology (MIS), Year 1 at <a href="https://setecu.com"><b>Setec Institude</b></a></p>
 
                                 
