@@ -58,7 +58,7 @@ p {
 .fa-github{
     color:#ffffff
 }
-.fa-html5, .fa-github, .fa-css3, .fa-react, .fa-js{
+.fa-html5, .fa-github, .fa-css3, .fa-react, .fa-js, .fa-file{
     margin: 0 10px;
 }
 .righthero img {
@@ -103,6 +103,10 @@ p {
   text-decoration: none;
   text-align: center;
   background: #161616;
+}
+
+.bottom {
+    grid-column: span 2;
 }
 
 .fcbutton::before {
@@ -159,6 +163,6 @@ p {
 
 }
 @media screen and (max-width: 500px) {
-    .fcontainer2{flex-direction: column;}
+    .fcontainer2{flex-direction: column;gap: 10px;}
 
 }

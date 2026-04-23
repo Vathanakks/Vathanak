@@ -10,12 +10,11 @@ const tabs = [
 ];
 
 const skills = [
-    { name: 'Html',               level: 95, icon:<i class="fa-brands fa-html5"></i> , tag: 'Frontend' },
+    { name: 'Html',               level: 95, icon: <i class="fa-brands fa-html5"></i> , tag: 'Frontend' },
     { name: 'CSS & Animations',   level: 85, icon: '✨',  tag: 'Frontend' },
     { name: 'React & JavaScript', level: 90, icon: '⚛️',  tag: 'Frontend' },
     { name: 'UI/UX Design',       level: 80, icon: '🎨',  tag: 'Design'   },
-    { name: 'REST APIs',          level: 75, icon: '🔗',  tag: 'Backend'  },
-    { name: 'MongoDB',            level: 65, icon: '🍃',  tag: 'Database' },
+    { name: 'Postgresql',         level: 65, icon: '🍃',  tag: 'Database' },
 ];
 
 const certificates = [
@@ -160,6 +159,26 @@ const Showcase = () => {
                         ))}
                     </div>
                 )}
+                {activeTab === 'education' && (
+                        <div className='edu-wrapper'>
+                            <div className='edu-container con1'>
+                                <img src="sovannaphumi.png" alt="sovannaphumi" style={{width: 70}} />
+                                <p>I completed my primary and secondary education from Grade 1 to Grade 12 at <a href="https://www.sovannaphumi.edu.kh/"><b>Sovannaphumi School.</b></a></p>
+                            </div>
+                            
+                            <div className='edu-container con2'>
+                                <img src="setecimg.png" alt="Setec" style={{width: 80}} />
+                                <p>Studying in major MIS at <a href="https://setecu.com"><b>Setec</b></a> Institude "Currently at year 1"</p>
+
+                                
+
+                            </div>
+                            
+
+
+                        </div>
+                    )
+                    }
             </div>
         </div>
     );
