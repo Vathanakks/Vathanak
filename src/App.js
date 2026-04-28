@@ -3,6 +3,7 @@ import Fsection from './fsection';
 import Header from './Header';
 import Link from './Link';
 import Showcase from './Showcase';
+import Cvcontainer from './Cvcontainer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Fsection />
           <Link />
           <Showcase />
+          <Cvcontainer />
     </div>
   );
 }

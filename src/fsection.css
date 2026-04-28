@@ -12,6 +12,7 @@ p{
     height: 600px;
     align-content: center;
     background: linear-gradient(30deg, #ffffff, #a3a3a3);
+    scroll-margin-top: 80px;
 }
 .fcontainer {
     display: flex;

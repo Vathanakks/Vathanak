@@ -22,7 +22,7 @@ const Fsection = () => {
     <br></br>
             <div className="fcontainer2">
                 <a href="https://github.com/Vathanakks" class="fcbutton" target="_blank" rel="noopener noreferrer"  ><i class="fa-brands fa-github"></i> Github Profile</a>
-                <a href="https://github.com/Vathanakks" class="fcbutton" target="_blank" rel="noopener noreferrer"  ><i class="fa-solid fa-file" style={{color: "#fff"}}></i>   Download CV</a>
+                <a href="#cv-wrapper" class="fcbutton"><i class="fa-solid fa-file" style={{color: "#fff"}}></i>   View CV</a>
             {/*
                 <a href="https://t.me/Vathanakks" class="fcbutton bottom" target="_blank" rel="noopener noreferrer"  ><i class="fa-brands fa-telegram" style={{color: "rgb(116, 192, 252)",}}></i>   Quick Contact</a>
             */}
