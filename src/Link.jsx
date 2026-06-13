@@ -11,21 +11,6 @@ const Link = () => {
                 </div>
                 <h1 className="link-box-text">Facebook</h1>
             </a>
-
-            <a href="https://pay.ababank.com/oRF8/9pai2k5y" className="link-box" target="_blank" rel="noopener noreferrer">
-                <div className="link-logo">
-                <img src="unnamed.png" alt="ABA"></img>
-                </div>
-                <h1 className="link-box-text">ABA</h1>
-            </a>
-
-            <a href="https://www.capcut.com/u/e30?irclickid=RGg2qrQEoxycR0bU6vzJXWjaUku1%3AFyVfwSXy80&sharedid=&irpid=2667632&irgwc=1&afsrc=1" className="link-box" target="_blank" rel="noopener noreferrer">
-                <div className="link-logo">
-                <img src="logo.png" alt="AC"></img>
-                </div>
-                <h1 className="link-box-text">Acleda</h1>
-            </a>
-
             <a href="https://t.me/vathanakks" className="link-box" target="_blank" rel="noopener noreferrer">
                 <div className="link-logo">
                 <img src="Telegram_logo.svg.png" alt="Telegram"></img>
